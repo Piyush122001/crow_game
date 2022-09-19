@@ -1,0 +1,20 @@
+body{
+    /* background:linear-gradient(to bottom, red, green ,blue); */
+    background-image:url('images/background-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%; 
+}
+#collision{
+    opacity:0;
+}
